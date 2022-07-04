@@ -14,7 +14,7 @@ pipeline {
 	stages {
 
 		stage("Test - Unit tests") {
-			sh "echo $PYTHONPATH"
+			sh "echo pypth--$PYTHONPATH"
 			steps { runUnittests() }
 		}
 
